@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import "./App.css";
 import Header from './components/Header';
-// import Hero from "./components/Hero";
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 
 
@@ -10,12 +11,13 @@ const App = () => {
   return (
     <Router>
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       <Routes>
-        <Route path='/' />
+        <Route path="/" element={<About />} />
       </Routes>
+      {/* <Footer /> */}
     </Router>
-   );
+  );
 }
 
 export default App;
