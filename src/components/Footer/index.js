@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { ImStackoverflow } from "react-icons/im";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
-
 
 function Footer() {
   return (
@@ -19,7 +18,7 @@ function Footer() {
                 <AiFillLinkedin />
               </Link>
               <Link>
-              <ImStackoverflow />
+                <ImStackoverflow />
               </Link>
             </div>
             <div>
@@ -32,4 +31,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;

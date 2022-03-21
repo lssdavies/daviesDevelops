@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from '../../assets/images/logo.png';
+import React from "react";
+import logo from "../../assets/images/logo.png";
 import "../../../src/assets/styles/index.css";
-import Navbar from '../Navbar';
+import Navbar from "../Navbar";
 
 function Header() {
   return (
@@ -18,4 +18,4 @@ function Header() {
   );
 }
 
-export default Header
+export default Header;
