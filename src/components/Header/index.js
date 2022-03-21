@@ -5,13 +5,16 @@ import Navbar from '../Navbar';
 
 function Header() {
   return (
-    <header className="header">
-      
-        <img src={logo} alt="Davies Develops Logo" className="logo" />
-      
-        <Navbar />
-      
-    </header>
+    <>
+      <header className="header">
+        <div>
+          <img src={logo} alt="Davies Develops Logo" className="logo" />
+        </div>
+        <div>
+          <Navbar />
+        </div>
+      </header>
+    </>
   );
 }
 

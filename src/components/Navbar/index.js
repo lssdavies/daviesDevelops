@@ -37,40 +37,35 @@ import "../../../src/assets/styles/index.css";
 
 
 const Navbar = () => {
-  //setting state for side menu to false to not show on load
-  const [sideMenu, setSideMenu] = useState(false);
-
-  //function to toggle between states onClick
-  const menuOnOff = () => {
-    setSideMenu(!sideMenu);
-  };
-
-  // to be added back FaBar className="burgerMenu"
-
+  
   return (
     <>
-      <div className="navbar">
-        <Link to="#" className="menuIcons">
-          <FaBars onClick={menuOnOff} />
-        </Link>
-      </div>
-      <nav className={sideMenu ? "menuActive" : "menuOff"}>
-        <ul className="navMenu" onClick={menuOnOff}>
-          <li className="menuToggle">
-            <Link to="#" className="menuIcons">
-              <AiOutlineClose />
+      <nav className="navBar">
+        <ul className="navMenu">
+          <li className="navItem">
+            <Link to="/">
+              <SiAboutdotme />
+              <span>About</span>
             </Link>
           </li>
-          {menuLink.map((list, index) => {
-            return (
-              <li key={index} className={list.class}>
-                <Link to={list.path}>
-                  {list.icon}
-                  <span>{list.link}</span>
-                </Link>
-              </li>
-            );
-          })}
+          <li className="navItem">
+            <Link to="/Portfolio">
+              <FaSuitcase />
+              <span>Portfolio</span>
+            </Link>
+          </li>
+          <li className="navItem">
+            <Link to="/contact">
+              <AiFillContacts />
+              <span>Contact</span>
+            </Link>
+          </li>
+          <li className="navItem">
+            <Link to="/resume">
+              <AiFillFilePdf />
+              <span>Resume</span>
+            </Link>
+          </li>
         </ul>
       </nav>
     </>
