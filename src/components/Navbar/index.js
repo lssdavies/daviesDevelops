@@ -5,6 +5,7 @@ import { AiFillContacts, AiFillFilePdf } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import "../../../src/assets/styles/index.css";
 
+
 const Navbar = () => {
   
   return (

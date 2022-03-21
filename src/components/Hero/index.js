@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import "../../../src/assets/styles/index.css";
 
 function Hero() {
   return (
     <>
-      <div className='heroContainer'>
+      <div className="heroContainer">
         <section className="hero">
           <aside class="heroQuote">
             <h2>
@@ -20,4 +20,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -19,16 +19,15 @@ function About() {
               Continuing and Professional Education Coding Bootcamp.
             </p>
             I am currently employed by VSP, a Vision Insurance Company as an
-            Online Support Representative and have 9+ years Customer Service
-            experiece. If you will like to know more about my work exprerience
-            take a look at my resume by click <span className="name">
+            Online Support Representative and have 9+ years Customer Service experiece. If you will like to know more about my work exprerience take a look at my resume by click
+            <span className="name">
               <Link to="/resume">here</Link>.
             </span>
           </p>
-        </main>
-      </div>
+        </main> 
+     </div>
     </>
   );
 }
 
-export default About
+export default About;
