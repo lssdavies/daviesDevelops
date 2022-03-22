@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/daviesDevelops/static/css/main.b63035cb.css",
-    "main.js": "/daviesDevelops/static/js/main.30a1fed8.js",
+    "main.js": "/daviesDevelops/static/js/main.8b561bda.js",
     "static/media/heroBg.png": "/daviesDevelops/static/media/heroBg.c1313b1a51997f921322.png",
     "static/media/heroBg3.png": "/daviesDevelops/static/media/heroBg3.3be6b948e20c24402b0f.png",
+    "static/media/resume.pdf": "/daviesDevelops/static/media/resume.b25e0974e36ae7bdf70f.pdf",
     "static/media/heroBg2.png": "/daviesDevelops/static/media/heroBg2.3bff2676987f3b42f2b6.png",
     "static/media/icocina.PNG": "/daviesDevelops/static/media/icocina.3aa6a1283e4086c47269.PNG",
     "static/media/logo.png": "/daviesDevelops/static/media/logo.e237b118c6ac710f2d4a.png",
@@ -14,10 +15,10 @@
     "static/media/decryptoLogo2.png": "/daviesDevelops/static/media/decryptoLogo2.50ec1ad648991b0c241d.png",
     "index.html": "/daviesDevelops/index.html",
     "main.b63035cb.css.map": "/daviesDevelops/static/css/main.b63035cb.css.map",
-    "main.30a1fed8.js.map": "/daviesDevelops/static/js/main.30a1fed8.js.map"
+    "main.8b561bda.js.map": "/daviesDevelops/static/js/main.8b561bda.js.map"
   },
   "entrypoints": [
     "static/css/main.b63035cb.css",
-    "static/js/main.30a1fed8.js"
+    "static/js/main.8b561bda.js"
   ]
 }
