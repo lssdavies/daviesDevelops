@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { ImStackoverflow } from "react-icons/im";
-import { IconContext } from "react-icons";
 
 function About() {
   return (
@@ -30,40 +27,41 @@ function About() {
             </span>
           </p>
         </main>
-        <div className="footer">
-          <IconContext.Provider value={{ size: "2rem", color: "#FFF" }}>
-            <a
-              href="https://github.com/lssdavies"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <span>
-                <AiFillGithub />
-              </span>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/larry-davies-6a95b2221/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <span>
-                <AiFillLinkedin />
-              </span>
-            </a>
-            <a
-              href="https://stackoverflow.com/users/16962636/lssdavies"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <span>
-                <ImStackoverflow />
-              </span>
-            </a>
-          </IconContext.Provider>
-        </div>
-      </div>
+       </div>
     </>
   );
 }
 
 export default About;
+
+//<div className="footer">
+//           <IconContext.Provider value={{ size: "2rem", color: "#FFF" }}>
+//             <a
+//               href="https://github.com/lssdavies"
+//               target="_blank"
+//               rel="noreferrer noopener"
+//             >
+//               <span>
+//                 <AiFillGithub />
+//               </span>
+//             </a>
+//             <a
+//               href="https://www.linkedin.com/in/larry-davies-6a95b2221/"
+//               target="_blank"
+//               rel="noreferrer noopener"
+//             >
+//               <span>
+//                 <AiFillLinkedin />
+//               </span>
+//             </a>
+//             <a
+//               href="https://stackoverflow.com/users/16962636/lssdavies"
+//               target="_blank"
+//               rel="noreferrer noopener"
+//             >
+//               <span>
+//                 <ImStackoverflow />
+//               </span>
+//             </a>
+//           </IconContext.Provider>
+//         </div>

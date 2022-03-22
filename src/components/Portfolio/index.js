@@ -1,7 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { ImStackoverflow } from "react-icons/im";
-import { IconContext } from "react-icons";
+import { AiFillGithub} from "react-icons/ai";
 import { projects } from './projects';
 
 function Portfolio() {
@@ -52,37 +50,6 @@ function Portfolio() {
                   </div>
                 );
               })}
-            </div>
-            <div className="footer">
-              <IconContext.Provider value={{ size: "2rem", color: "#172243" }}>
-                <a
-                  href="https://github.com/lssdavies"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <AiFillGithub />
-                  </span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/larry-davies-6a95b2221/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <AiFillLinkedin />
-                  </span>
-                </a>
-                <a
-                  href="https://stackoverflow.com/users/16962636/lssdavies"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <ImStackoverflow />
-                  </span>
-                </a>
-              </IconContext.Provider>
             </div>
           </div>
         </section>

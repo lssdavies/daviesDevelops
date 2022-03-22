@@ -8,22 +8,29 @@ function Footer() {
   return (
     <>
       <IconContext.Provider value={{ size: "2rem", padding: "1rem" }}>
-        <div className="contentContainer">
-          <div className="footer">
-            <div>
-              <Link to="">
-                <AiFillGithub />
-              </Link>
-              <Link to="">
-                <AiFillLinkedin />
-              </Link>
-              <Link>
-                <ImStackoverflow />
-              </Link>
-            </div>
-            <div>
-              <footerLogo />
-            </div>
+        <div className="footer">
+          <div>
+            <Link
+              to="https://github.com/lssdavies"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <AiFillGithub />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/in/larry-davies-6a95b2221/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <AiFillLinkedin />
+            </Link>
+            <Link
+              to="https://stackoverflow.com/users/16962636/lssdavies"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <ImStackoverflow />
+            </Link>
           </div>
         </div>
       </IconContext.Provider>

@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 //importing the helper of function to validate email
 import { validateEmail } from "../../assets/utils/helpers";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { ImStackoverflow } from "react-icons/im";
-import { IconContext } from "react-icons";
 
 function Contact() {
   /*Hook to manage the form data and initialize the values of the state. formState will have three key-value pairs to represent the three user inputs: name, email, and message*/
@@ -111,37 +108,6 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <IconContext.Provider value={{ size: "2rem", color: "#172243" }}>
-              <div className="footer">
-                <a
-                  href="https://github.com/lssdavies"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <AiFillGithub />
-                  </span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/larry-davies-6a95b2221/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <AiFillLinkedin />
-                  </span>
-                </a>
-                <a
-                  href="https://stackoverflow.com/users/16962636/lssdavies"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <span>
-                    <ImStackoverflow />
-                  </span>
-                </a>
-              </div>
-            </IconContext.Provider>
           </div>
         </section>
       </div>
