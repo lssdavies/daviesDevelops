@@ -1,7 +1,7 @@
 import meme from "../../assets/images/meme-logo.png";
 import memeapp from "../../assets/images/memeOHgram.png";
 import icocina from "../../assets/images/iCocinaLogo.png";
-import icocinaapp from "../../assets/images/iCocina.png";
+import icocinaapp from "../../assets/images/icocina.PNG";
 import decrypto from "../../assets/images/decryptoLogo2.png";
 import decryptoapp from "../../assets/images/deCrypto.png";
 

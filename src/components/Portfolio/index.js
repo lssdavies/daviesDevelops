@@ -30,7 +30,7 @@ function Portfolio() {
                         rel="noreferrer noopener"
                       >
                         <div>
-                          <img src={item.image} />
+                          <img src={item.image} alt="app"/>
                         </div>
                         <div className="cardDescription">
                           {item.description}
