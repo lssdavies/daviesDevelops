@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/daviesDevelops/static/css/main.dfa84dc1.css",
-    "main.js": "/daviesDevelops/static/js/main.ad461b85.js",
+    "main.css": "/daviesDevelops/static/css/main.b63035cb.css",
+    "main.js": "/daviesDevelops/static/js/main.7158ef01.js",
     "static/media/heroBg.png": "/daviesDevelops/static/media/heroBg.c1313b1a51997f921322.png",
+    "static/media/heroBg3.png": "/daviesDevelops/static/media/heroBg3.3be6b948e20c24402b0f.png",
     "static/media/heroBg2.png": "/daviesDevelops/static/media/heroBg2.3bff2676987f3b42f2b6.png",
+    "static/media/icocina.PNG": "/daviesDevelops/static/media/icocina.3aa6a1283e4086c47269.PNG",
     "static/media/logo.png": "/daviesDevelops/static/media/logo.e237b118c6ac710f2d4a.png",
+    "static/media/deCrypto.png": "/daviesDevelops/static/media/deCrypto.382b14f2d9b46d299c93.png",
+    "static/media/memeOHgram.png": "/daviesDevelops/static/media/memeOHgram.837df56807a97ddbfaac.png",
+    "static/media/meme-logo.png": "/daviesDevelops/static/media/meme-logo.40815880245652c47444.png",
+    "static/media/iCocinaLogo.png": "/daviesDevelops/static/media/iCocinaLogo.13d7abc1778123c6fe57.png",
+    "static/media/decryptoLogo2.png": "/daviesDevelops/static/media/decryptoLogo2.50ec1ad648991b0c241d.png",
     "index.html": "/daviesDevelops/index.html",
-    "main.dfa84dc1.css.map": "/daviesDevelops/static/css/main.dfa84dc1.css.map",
-    "main.ad461b85.js.map": "/daviesDevelops/static/js/main.ad461b85.js.map"
+    "main.b63035cb.css.map": "/daviesDevelops/static/css/main.b63035cb.css.map",
+    "main.7158ef01.js.map": "/daviesDevelops/static/js/main.7158ef01.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa84dc1.css",
-    "static/js/main.ad461b85.js"
+    "static/css/main.b63035cb.css",
+    "static/js/main.7158ef01.js"
   ]
 }
