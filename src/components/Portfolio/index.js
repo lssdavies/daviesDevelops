@@ -1,13 +1,14 @@
 import React from "react";
-import { AiFillGithub} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { ImStackoverflow } from "react-icons/im";
 import { IconContext } from "react-icons";
-import { projects } from './projects'
+import { projects } from './projects';
 
 function Portfolio() {
   return (
     <>
       <div className="contentContainer">
-        <article className="contentPage">
+        <section className="contentPage">
           <div className="projectContainer">
             <h1 className="title">
               <span style={{ color: "#172243" }}>[</span>My Projects
@@ -24,7 +25,8 @@ function Portfolio() {
                     </div>
                     <div className="cardBody">
                       <a
-                        href={item.deploy}                        target="_blank"
+                        href={item.deploy}
+                        target="_blank"
                         rel="noreferrer noopener"
                       >
                         <div>
@@ -34,29 +36,56 @@ function Portfolio() {
                           {item.description}
                         </div>
                       </a>
-                      <IconContext.Provider
-                        value={{ size: "2rem", color: "#546ccd" }}
-                      >
-                        <div className="cardFooter">
-                          <a
-                            href={item.repo}
-                            target="_blank"
-                            rel="noreferrer noopener"
-                          >
-                            <span>
-                              view the code
-                              <AiFillGithub />
-                            </span>
-                          </a>
-                        </div>
-                      </IconContext.Provider>
+                      <div className="cardFooter">
+                        <a
+                          href={item.repo}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                        >
+                          <span>
+                            view the code
+                            <AiFillGithub />
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 );
               })}
             </div>
+            <div className="footer">
+              <IconContext.Provider value={{ size: "2rem", color: "#172243" }}>
+                <a
+                  href="https://github.com/lssdavies"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>
+                    <AiFillGithub />
+                  </span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/larry-davies-6a95b2221/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>
+                    <AiFillLinkedin />
+                  </span>
+                </a>
+                <a
+                  href="https://stackoverflow.com/users/16962636/lssdavies"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <span>
+                    <ImStackoverflow />
+                  </span>
+                </a>
+              </IconContext.Provider>
+            </div>
           </div>
-        </article>
+        </section>
       </div>
     </>
   );

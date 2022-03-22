@@ -5,7 +5,8 @@ import Header from './components/Header';
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 
 
@@ -19,9 +20,10 @@ const App = () => {
           <Route path="/" element={<About />} />
           <Route path="/daviesDevelops" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </Router>
-      {/* <Footer /> */}
     </>
   );
 }
