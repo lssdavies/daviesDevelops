@@ -20,7 +20,7 @@ function Resume() {
                   <h2>
                     Click the link to download a copy of my
                     <Link
-                      to="/resume.pdf"
+                      to="./resume.pdf"
                       target="_blank"
                       rel="noreferrer noopener" download
                     >
