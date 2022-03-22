@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from "react-icons/ai";
 import { ImStackoverflow } from "react-icons/im";
 import { IconContext } from "react-icons";
+import file from "./resume.pdf";
 
 function Resume() {
   return (
@@ -20,7 +21,7 @@ function Resume() {
                   <h2>
                     Click the link to download a copy of my
                     <Link
-                      to="./resume.pdf"
+                      to={file}
                       target="_blank"
                       rel="noreferrer noopener" download
                     >
