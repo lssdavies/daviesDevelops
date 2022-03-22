@@ -3,12 +3,13 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { ImStackoverflow } from "react-icons/im";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
+import footerlogo from "../../assets/images/footer-logo.png";
 
 function Footer() {
   return (
     <>
       <IconContext.Provider value={{ size: "2rem", padding: "1rem" }}>
-        <div className="footer">
+        <footer>
           <div>
             <Link
               to="https://github.com/lssdavies"
@@ -32,7 +33,10 @@ function Footer() {
               <ImStackoverflow />
             </Link>
           </div>
-        </div>
+          <div>
+            <img src={footerlogo} className="footerlogo" />
+          </div>
+        </footer>
       </IconContext.Provider>
     </>
   );
