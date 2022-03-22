@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daviesDevelops/static/css/main.b63035cb.css",
-    "main.js": "/daviesDevelops/static/js/main.8b561bda.js",
+    "main.css": "/daviesDevelops/static/css/main.1cf0d31b.css",
+    "main.js": "/daviesDevelops/static/js/main.c614ea66.js",
     "static/media/heroBg.png": "/daviesDevelops/static/media/heroBg.c1313b1a51997f921322.png",
     "static/media/heroBg3.png": "/daviesDevelops/static/media/heroBg3.3be6b948e20c24402b0f.png",
     "static/media/resume.pdf": "/daviesDevelops/static/media/resume.b25e0974e36ae7bdf70f.pdf",
@@ -10,15 +10,16 @@
     "static/media/logo.png": "/daviesDevelops/static/media/logo.e237b118c6ac710f2d4a.png",
     "static/media/deCrypto.png": "/daviesDevelops/static/media/deCrypto.382b14f2d9b46d299c93.png",
     "static/media/memeOHgram.png": "/daviesDevelops/static/media/memeOHgram.837df56807a97ddbfaac.png",
+    "static/media/footer-logo.png": "/daviesDevelops/static/media/footer-logo.43220d6c1039bb2d18ce.png",
     "static/media/meme-logo.png": "/daviesDevelops/static/media/meme-logo.40815880245652c47444.png",
     "static/media/iCocinaLogo.png": "/daviesDevelops/static/media/iCocinaLogo.13d7abc1778123c6fe57.png",
     "static/media/decryptoLogo2.png": "/daviesDevelops/static/media/decryptoLogo2.50ec1ad648991b0c241d.png",
     "index.html": "/daviesDevelops/index.html",
-    "main.b63035cb.css.map": "/daviesDevelops/static/css/main.b63035cb.css.map",
-    "main.8b561bda.js.map": "/daviesDevelops/static/js/main.8b561bda.js.map"
+    "main.1cf0d31b.css.map": "/daviesDevelops/static/css/main.1cf0d31b.css.map",
+    "main.c614ea66.js.map": "/daviesDevelops/static/js/main.c614ea66.js.map"
   },
   "entrypoints": [
-    "static/css/main.b63035cb.css",
-    "static/js/main.8b561bda.js"
+    "static/css/main.1cf0d31b.css",
+    "static/js/main.c614ea66.js"
   ]
 }
